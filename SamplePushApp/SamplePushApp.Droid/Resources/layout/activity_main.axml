@@ -9,4 +9,12 @@
         android:layout_height="wrap_content"
 		android:id="@+id/button"
 		android:text="click"/>
+	<TextView
+		android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/button"
+		android:gravity="center"
+		android:id="@+id/text"
+		android:text="click"
+	/>
 </RelativeLayout>
